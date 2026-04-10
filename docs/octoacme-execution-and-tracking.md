@@ -20,8 +20,10 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
-- Security scanning in CI
+- Security scanning in CI — **Security Champion** owns triage and prioritisation of findings
+- UX validation — **UX Designer** reviews implemented features against design specs before sprint demo
 - Manual QA for feature acceptance when needed
+- Support readiness check before closing a milestone — **Support Lead** confirms runbooks and docs are updated
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -35,6 +37,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
+- [ ] CI configured for tests, lint, and security scanning
+- [ ] Security Champion assigned as reviewer on security-sensitive PRs
+- [ ] UX Designer scheduled for mid-sprint design reviews and final sign-off
+- [ ] Support Lead informed of in-progress features; runbook drafts started
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+
+> See [Roles & Personas](octoacme-roles-and-personas.md) and [Role Interactions & RACI](octoacme-role-interactions-and-raci.md) for detailed ownership guidance.

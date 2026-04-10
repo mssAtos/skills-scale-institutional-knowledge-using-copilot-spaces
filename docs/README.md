@@ -10,7 +10,7 @@ During **Planning**, approved work is broken into shippable increments with expl
 
 **Release & Deployment** follows a checklist: passing CI/security scans, prepared release notes, a rollback plan, and staging smoke tests before production. After each release or milestone, a **Retrospective** captures learnings and produces owned, time-bound action items fed back into the backlog.
 
-Core **roles** — Project Manager, Product Manager, Developer, and QA — each have defined responsibilities and communication patterns. Stakeholder updates are provided weekly or at milestones via a single source of truth, with a structured escalation path: team triage → PM → Product Lead → Sponsor for business-impacting issues.
+Core **roles** — Project Manager, Product Manager, Developer, UX Designer, Security Champion, Business Analyst, and Support Lead — each have defined responsibilities and communication patterns. Stakeholder updates are provided weekly or at milestones via a single source of truth, with a structured escalation path: team triage → PM → Product Lead → Sponsor for business-impacting issues, and a dedicated security escalation path for vulnerabilities.
 
 ---
 
@@ -25,6 +25,7 @@ Core **roles** — Project Manager, Product Manager, Developer, and QA — each 
 | [Risk Management & Communication](octoacme-risks-and-communication.md) | Risk Register, risk lifecycle, stakeholder communication, escalation paths |
 | [Release & Deployment Guide](octoacme-release-and-deployment.md) | Release types, pre-release checklist, deployment steps, rollback playbook, release notes |
 | [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | Retrospective structure, running the session, tracking improvement action items |
-| [Roles and Personas](octoacme-roles-and-personas.md) | Detailed responsibilities, goals, and communication patterns for each core role |
+| [Roles and Personas](octoacme-roles-and-personas.md) | Detailed responsibilities, goals, and communication patterns for all roles (including UX Designer, Security Champion, BA, Support Lead) |
+| [Role Interactions & RACI](octoacme-role-interactions-and-raci.md) | RACI matrix across all lifecycle phases and key handoff points |
 
 > For detailed guidance on any process stage, refer to the linked document above.
