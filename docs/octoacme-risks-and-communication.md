@@ -38,5 +38,8 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
-- For security incidents, follow the security incident runbook and notify Security on-call
+- Team-level → PM → Product Lead → Sponsor
+- **Security escalation**: Security Champion triages finding → Security Champion + PM notify Security on-call → follow security incident runbook → post-incident blameless retrospective. For critical vulnerabilities, bypass PM and escalate directly to Security on-call.
+- **Customer-impacting support escalation**: Support Lead flags issue → PM coordinates response → Product Lead if scope/roadmap impact → Sponsor for sustained service disruption. Support Lead provides initial customer communication while resolution is in progress.
+
+> See [Roles & Personas](octoacme-roles-and-personas.md) for role definitions and [Role Interactions & RACI](octoacme-role-interactions-and-raci.md) for ownership during escalation activities.
